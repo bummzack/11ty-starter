@@ -138,3 +138,11 @@ Start the live-reload server (if you didn't do so already):
 ```sh
 npx @11ty/eleventy --serve
 ```
+
+# Deploy to netlify
+
+https://app.netlify.com/start
+
+Login with GitHub and create a new Site.
+Connect your Eleventy Project with Netlify.
+You can follow [this guide](https://w3collective.com/deploy-eleventy-github-to-netlify/) to do so.
