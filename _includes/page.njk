@@ -28,7 +28,15 @@
   </main>
   <footer>
     {% block footer %}
-    Footer
+      <ul>
+        {% for link in social %}
+          <li>
+            <a href="{{ link.link }}" target="_blank">
+              {{ link.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
     {% endblock %}
   </footer>
 </body>
