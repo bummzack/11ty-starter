@@ -23,3 +23,12 @@ cd ~/Desktop
 git clone <repo url>
 cd <your project name>
 ```
+
+## Initialize 11ty
+
+As described on https://www.11ty.dev/docs/getting-started/
+
+```sh
+npm init -y
+npm install --save-dev @11ty/eleventy
+```
