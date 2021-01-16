@@ -46,3 +46,41 @@ node_modules
 .DS_Store
 _site
 ```
+
+## Add a page template and a layout
+
+`_includes/page.njk`
+
+```njk
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      {% block header %}
+        Header
+      {% endblock %}
+    </header>
+    <main>
+      {% block main %}
+        Content
+      {% endblock %}
+    </main>
+    <footer>
+      {% block footer %}
+        Footer
+      {% endblock %}
+    </footer>
+  </body>
+</html>
+```
+
+`_includes/layout.njk`
+
+```njk
+{% extends "page.njk" %}
+```
