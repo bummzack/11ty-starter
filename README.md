@@ -32,3 +32,17 @@ As described on https://www.11ty.dev/docs/getting-started/
 npm init -y
 npm install --save-dev @11ty/eleventy
 ```
+
+Test eleventy using:
+
+```sh
+npx @11ty/eleventy
+```
+
+## Add a .gitignore file
+
+```
+node_modules
+.DS_Store
+_site
+```

@@ -1,0 +1,23 @@
+{
+  "name": "11ty-starter",
+  "version": "1.0.0",
+  "description": "Eleventy Starter Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bummzack/11ty-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bummzack/11ty-starter/issues"
+  },
+  "homepage": "https://github.com/bummzack/11ty-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
