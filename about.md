@@ -1,5 +1,5 @@
 ---
-title: This is the about page
+title: About
 layout: layout.njk
 tags: main
 ---

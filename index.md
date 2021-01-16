@@ -6,8 +6,4 @@ tags: main
 
 # Überschrift 1
 
-Text
-
-[Linkname](https://google.com)
-
-Mehr inhalt
+This is my [eleventy](https://eleventy.dev) starter project

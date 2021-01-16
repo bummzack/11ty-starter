@@ -84,3 +84,57 @@ _site
 ```njk
 {% extends "page.njk" %}
 ```
+
+## Creating pages
+
+Create two new Markdown files, `index.md` and `about.md` in your project folder.
+
+We set the desired layout (`layout.njk`) and title as [front-matter](https://www.11ty.dev/docs/data-frontmatter/) at the start of the documents.
+
+We also establish a [collection](https://www.11ty.dev/docs/collections/) by setting the same tags for both pages (in this case `main`).
+
+The `index.md`:
+
+```md
+---
+title: Homepage
+layout: layout.njk
+tags: main
+---
+
+# Überschrift 1
+
+This is my [eleventy](https://eleventy.dev) starter project
+```
+
+The `about.md`
+
+```md
+---
+title: About
+layout: layout.njk
+tags: main
+---
+
+# About
+
+This is the about page
+```
+
+#### Exclude the github readme from your website
+
+Also make sure, that the `README.md` from github is ignored, as we don't want this as part of our website.
+
+For that purpose, create a file named `.eleventyignore` with the following content:
+
+```
+README.md
+```
+
+## Run the eleventy server
+
+Start the live-reload server (if you didn't do so already):
+
+```sh
+npx @11ty/eleventy --serve
+```
