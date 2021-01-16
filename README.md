@@ -16,5 +16,5 @@ brew install node@14
 ## Create a repository
 
 1. Create an account on GitHub.
-2. Create a new repository (private) on GitHub.
+2. Create a [new repository](https://github.com/new) (private) on GitHub.
 
