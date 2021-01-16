@@ -1,0 +1,15 @@
+body {
+  font-size: 32px;
+  color: blue;
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+  &:before {
+    content: '↗️';
+    margin-right: 0.5em;
+    display: inline-block;
+  }
+}
+
+@import "header";

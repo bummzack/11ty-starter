@@ -19,5 +19,8 @@
   "homepage": "https://github.com/bummzack/11ty-starter#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.1.1"
   }
 }
