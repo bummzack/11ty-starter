@@ -8,7 +8,7 @@ Eleventy Starter Project
 
 On Mac OS X, use [brew](https://brew.sh/) to install these.
 
-```shell
+```sh
 brew install git
 brew install node@14
 ```
@@ -18,3 +18,8 @@ brew install node@14
 1. Create an account on GitHub.
 2. Create a [new repository](https://github.com/new) (private) on GitHub.
 
+```sh
+cd ~/Desktop
+git clone <repo url>
+cd <your project name>
+```
